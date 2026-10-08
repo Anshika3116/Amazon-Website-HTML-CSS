@@ -1,0 +1,412 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+}
+
+header{
+    height: 15%;
+}
+
+nav{
+    height: 65%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 140px;
+    padding: 15px;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.nav-logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-icon{
+    height: 60px;
+    width: 140px;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+
+.nav-icon p{
+    font-size: 14px;
+    margin-left: 25px;
+    color: rgb(190, 187, 187);
+}
+
+.nav-icon h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav-search{
+    display: flex;
+    height: 40px;
+}
+
+.search-select{
+    width: 50px;
+    text-align: center;
+    background-color: rgb(214, 212, 212);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-select:hover{
+    background-color: rgb(180, 179, 179);
+}
+
+.text{
+    width: 600px;
+    font-size: 1rem;
+    padding-left: 5px;
+    border: none;
+}
+
+.nav-search .icon{
+    width: 45px;
+    background-color: rgb(253, 204, 111);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+
+.nav-search .icon:hover{
+    background-color: rgb(250, 175, 35);
+}
+
+.icon i{
+    font-size: 20px;
+    color: black;
+}
+
+.indian-img{
+    display: flex;
+    align-items: center;
+}
+
+.indian-img img{
+    height: 45px;
+    width: 45px;
+} 
+
+.nav-accounts{
+    padding: 8px;
+}
+
+.nav-accounts p{
+    font-size: 0.8rem;
+}
+
+.nav-accounts h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.nav-order{
+    padding: 5px;
+}
+
+.nav-order p small{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.nav-order p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav-cart img{
+    padding: 5px;
+    height: 50px;
+}
+
+.panel-all{
+    padding: 10px;
+}
+
+.nav-bottom{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+.panel-ops{
+    font-size: 0.8rem;
+    display: flex;
+    width: 80%;
+    gap: 18px;
+}
+
+.panel-ops p{
+    padding: 5px;
+}
+
+.panel-deals{
+    padding: 5px;
+    font-size: 0.9rem;
+}
+section{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 50%;
+    background-image: url('https://media.licdn.com/dms/image/v2/D5605AQGSffoyDMii_A/feedshare-thumbnail_720_1280/feedshare-thumbnail_720_1280/0/1690222987855?e=2147483647&v=beta&t=S9CAdsygeadkZeaxD08BahGikbNv8FJGZ6v_ku3H5kg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.content-text{
+    height: 30px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+
+.content-text a{
+    color: rgb(0, 170, 113);
+}
+
+.shop-section{
+    background-color: rgb(212, 235, 244);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box{
+      height: 450px;
+      width: 340px;
+      background-color: white;
+      margin-top: 15px;
+      padding: 10px;
+}
+
+.shop-section h2{
+    font-size: 20px;
+    margin: 10px 0 0 15px;
+}
+
+.shop-section img{
+    height: 75%;
+    width: 93%;
+    background-size: cover;
+    margin: 10px 0 0 12px;
+}
+
+.shop-section p{
+    color: rgb(0, 170, 113);
+    margin: 10px 0 0 15px;
+}
+
+.boxes{
+    height: 480px;
+    width: 345px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.boxes h2{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.content-box{
+    height: 35%;
+    width: 95%;
+    display: flex;
+}
+
+.box1{
+    height: 100%;
+    width: 50%;
+    margin: 10px 0 0 10px;
+}
+
+.box1 img{
+    height: 100%;
+    width: 100%;
+    margin: 3px 0 0 5px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.box1 p{
+    color: black;
+    margin-top: -0.5px;
+    margin-left: -0.2px;
+
+}
+
+.box2{
+    height: 100%;
+    width: 50%;
+    margin: 10px 0 0 10px;
+}
+
+.box2 img{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: -0.2px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.box2 p{
+    color: black;
+    margin-left: -0.2px;
+    margin-top: -0.2px;
+}
+
+.foot-panel1{
+    height: 50px;
+    color: white;
+    background-color: rgb(47, 46, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.foot-panel2{
+    height: 400px;
+    background-color: rgb(26, 26, 33);
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text-box h4{
+    font-size: 20px;
+}
+
+small{
+    font-size: 15px;
+    color: rgb(218, 216, 216);
+}
+
+.foot-panel3{
+    height: 150px;
+    background-color: rgb(26, 26, 33);
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.foot-panel3 img{
+    height: 100px;
+    width: 200px;
+}
+
+.icon1{
+    height: 30px;
+    width: 150px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-globe{
+    margin-right: 10px;
+}
+
+.fa-sort{
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+.icon2{
+    height: 30px;
+    width: 100px;
+    border: 1px solid gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon2 img{
+    height: 30px;
+    width: 30px;
+}
+
+.foot-panel4{
+    height: 200px;
+    background-color: rgb(11, 11, 18);
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    gap: 50px;
+}
+
+.text-under{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.text-under p{
+    color: rgb(217, 217, 217);
+     font-size: 13px;
+     font-weight: 600;
+     line-height: 20px;
+}
+
+.text-under small{
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.ground{
+    margin-top: -50px;
+}
+
